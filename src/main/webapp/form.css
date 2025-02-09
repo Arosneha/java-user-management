@@ -1,0 +1,60 @@
+body {
+
+font-family: 'Arial', sans-serif;
+
+margin: 0;
+
+padding: 0;
+
+}
+
+/* Navigation Bar */
+
+.navbar {
+
+background-color: rgba(13,86, 164, 0.8);
+
+display: flex;
+
+justify-content: space-between;
+
+align-items: center;
+
+padding: 15px;
+
+position: sticky;
+
+top: 0;
+
+}
+.navbar .logo {
+
+font-size: 24px;
+
+color: white;
+
+font-weight: bold;
+
+}
+
+.navbar .nav-links a {
+
+color: white;
+
+text-decoration: none;
+
+padding: 10px 15px;
+
+font-weight: bold;
+
+}
+
+navbar .nav-links a:hover {
+
+background-color:#343536;
+
+color: #fff;
+
+border-radius: 5px;
+
+}
